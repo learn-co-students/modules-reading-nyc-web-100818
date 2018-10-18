@@ -1,5 +1,6 @@
 module FancyDance
-  module InstanceMethods
+
+  module InstanceMethods # InstanceMethods is a submodule of FancyDance module
 
     def twirl
       "I'm twirling!"
@@ -18,7 +19,7 @@ module FancyDance
     end
   end
 
-  module ClassMethods
+  module ClassMethods # ClassMethods is a submodule of FancyDance module
 
     def metadata
       "This class produces objects that love to dance."
